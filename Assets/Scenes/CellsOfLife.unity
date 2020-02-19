@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.50131506, g: 0.51568407, b: 0.57932436, a: 1}
+  m_IndirectSpecularColor: {r: 0.1977055, g: 0.17840537, b: 0.1604976, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -148,11 +148,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516229533}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 93e36185f414cfe469552e355581d3a4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5afeace370c2dc8449110e165a93a9ee, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 1b04a3f0ee111d24f919b19f64574766, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 57bb0f4fe18e56b4286fe58e559b83b2, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -214,20 +214,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videos:
-  - {fileID: 32900000, guid: 28719f1b79ae2cb4eb57a2a6b0b20c26, type: 3}
-  - {fileID: 32900000, guid: 72f3370f96a398c44a338542a8504ea6, type: 3}
-  - {fileID: 32900000, guid: b1f0912f12d38224185fa9b59ae4e0b5, type: 3}
-  - {fileID: 32900000, guid: b7cd38cbfa29652478a4064fc72bcdf5, type: 3}
-  - {fileID: 32900000, guid: ac53bbf0715a66d41b77e1b8e309a5d0, type: 3}
-  - {fileID: 32900000, guid: f75b0ab132b1c294a9190f3b51c4e7ae, type: 3}
-  - {fileID: 32900000, guid: f88e3ceb7b9698041b12cb1d605c0423, type: 3}
-  - {fileID: 32900000, guid: 59044c21bfe1b7b41aa8d4c7ce85470e, type: 3}
-  - {fileID: 32900000, guid: 6c33ba3e510908046a5c8379749f3492, type: 3}
-  - {fileID: 32900000, guid: 3f6ea2cac56aad747ad96d4ab648308f, type: 3}
-  - {fileID: 32900000, guid: bb6e0adabdd0bca44ac699ee93e9bf3c, type: 3}
-  - {fileID: 32900000, guid: 716df8e46417a59488dbad82a7419c91, type: 3}
-  - {fileID: 32900000, guid: 93e36185f414cfe469552e355581d3a4, type: 3}
-  - {fileID: 32900000, guid: afc54baea807025469d4dbf2c1446b1f, type: 3}
+  - {fileID: 32900000, guid: 5afeace370c2dc8449110e165a93a9ee, type: 3}
+  - {fileID: 32900000, guid: 8081c591dd5c7c24299945b31d223ead, type: 3}
+  - {fileID: 32900000, guid: 80b76387e88697746b39df8e3edb2538, type: 3}
+  - {fileID: 32900000, guid: 52beb80c7af82254aab01bc704ced8ee, type: 3}
+  - {fileID: 32900000, guid: 2d59d5bad1a21794f9b1954658cc2b00, type: 3}
+  - {fileID: 32900000, guid: b1d235e93d285ed49b8763daee8724a0, type: 3}
+  - {fileID: 32900000, guid: 6c1d9b291479f1449892cf5bde7aaaef, type: 3}
+  - {fileID: 32900000, guid: 72e9ac019708aa5469a1752be56a5606, type: 3}
+  - {fileID: 32900000, guid: 1413ce25962d3474f9e51bb8c8e9f06a, type: 3}
+  - {fileID: 32900000, guid: cc079fd21f9e15641bc422b9756aaf8c, type: 3}
+  - {fileID: 32900000, guid: 26b1f684a29ab4844bc0b847a291a824, type: 3}
+  - {fileID: 32900000, guid: d078797e2ebe0e548938de2a51202e4c, type: 3}
+  - {fileID: 32900000, guid: 007a8dcd77261424b805294104e99885, type: 3}
+  - {fileID: 32900000, guid: 795c731f6c3660141a50ee6d57012e15, type: 3}
   _videoPlayer: {fileID: 516229534}
 --- !u!1 &826569045
 GameObject:
