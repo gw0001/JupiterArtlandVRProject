@@ -3,7 +3,7 @@
  *
  * Author(s): Fletcher Moore
  * Date: 20/02/2020
- * Date last modified: 21/02/2020
+ * Date last modified: 23/02/2020
  */
 
 
@@ -19,6 +19,8 @@ using UnityEngine.SceneManagement;
  *
  * Script allows Navigation from Cells of Life to 
  * Separation In The Evening
+ * 
+ * Methods: Start(), Update()
  */
 public class NextExhibit : MonoBehaviour
 {
