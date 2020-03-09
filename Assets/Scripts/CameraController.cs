@@ -3,10 +3,10 @@
  * 
  * Author: Graeme White
  * Date: 20/01/20
- * Last modified: 20/02/2020
+ * Last modified: 09/03/2020
  */
 
- // Libraries
+// Libraries
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,17 +14,14 @@ using UnityEngine;
 /*
  * CameraController.cs
  * 
- * CameraController C# class that allows
- * control over the camera
+ * CAMERA CONTROLLER
  * 
  * Uses user mouse input to determine
  * the direction the user is looking.
- * 
- * FOR DEVELOPMENT PUROSES ONLY
  */
 public class CameraController : MonoBehaviour
 {
-    // Mouse sensitivity - serialized for tweaking in Unity
+    // Mouse sensitivity - serialized for tweaking in Unity Editor
     [SerializeField]
     private float _mouseSensitivity = 5.0f;
 
@@ -33,11 +30,9 @@ public class CameraController : MonoBehaviour
     public float _minimumY = -90.0f;
     // Maximum rotation angle in Y
     public float _maximumY = 90.0f;
-    // Note - Minimum and Maximum X values not required as the application will allow users a full 360 degree experience
-
+    // Note - Minimum and Maximum X values are only required when using mouse for camera control
 
     // Rotation Variables
-
     // Rotation in X
     private float _rotationX = 0.0f;
     // Rotation in Y
@@ -46,18 +41,16 @@ public class CameraController : MonoBehaviour
     // Camera component
     private Camera _theCamera;
 
-
     /*
-     * START METHOD
+     * AWAKE METHOD
      * 
-     * Method is called before the first frame of the 
-     * application has loaded.
+     * Method is called when scene is awoken
      * 
      * Method obtains the camera component, locks the
      * mouse cursor to the middle of the screen,
      * and hides the mouse cursor from view.
      */
-    void Start()
+    void Awake()
     {
         // Lock the cursor to the window of the application
         Cursor.lockState = CursorLockMode.Locked;

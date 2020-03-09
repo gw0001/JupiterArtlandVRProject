@@ -47,19 +47,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenesToLoad:
   - CellsOfLife_01
-  - CellsOfLife_02
-  - CellsOfLife_03
-  - CellsOfLife_04
-  - CellsOfLife_05
-  - CellsOfLife_06
-  - CellsOfLife_06A
-  - CellsOfLife_07
-  - CellsOfLife_08
-  - CellsOfLife_09
-  - CellsOfLife_10
-  - CellsOfLife_11
-  - CellsOfLife_12
-  - CellsOfLife_13
   activeScene: 
 --- !u!114 &4720816681349194175
 MonoBehaviour:
