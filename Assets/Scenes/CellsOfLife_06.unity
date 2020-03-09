@@ -568,6 +568,11 @@ PrefabInstance:
       propertyPath: _hotspotsInScene.Array.data[2]
       value: 
       objectReference: {fileID: 1743430842}
+    - target: {fileID: 3867632111696459070, guid: a3b002ab76ca25d4192ea6f403e1d4db,
+        type: 3}
+      propertyPath: theGM
+      value: 
+      objectReference: {fileID: 1766074263}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3b002ab76ca25d4192ea6f403e1d4db, type: 3}
 --- !u!1 &1216123282
@@ -747,6 +752,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1766074263 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4720816681349194145, guid: 36f678e1c77d5f348921fcceadecb5d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4720816680801386030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6460c9494e33b88438211fbbe06c09b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2741186734640496439
