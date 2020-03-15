@@ -403,17 +403,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658255088}
-  m_LocalRotation: {x: 0.008662749, y: -0.18791275, z: -0.012042069, w: 0.9820737}
-  m_LocalPosition: {x: 0, y: 0, z: 285.9}
+  m_LocalRotation: {x: 0.19261928, y: -0.15176205, z: 0.01673273, w: 0.9693225}
+  m_LocalPosition: {x: 0, y: 0, z: 355}
   m_LocalScale: {x: 0.5295, y: 1, z: 1}
   m_Children:
   - {fileID: 866993675}
   m_Father: {fileID: 1624003489}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0.716, y: -21.674002, z: -1.542}
+  m_LocalEulerAnglesHint: {x: 22.241001, y: -18.113, z: -1.6110001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106.600006, y: -59}
+  m_AnchoredPosition: {x: -106.600006, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658255090
@@ -577,7 +577,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 30, z: 10}
+  m_Size: {x: 150, y: 30, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &658255095
 MonoBehaviour:
@@ -864,17 +864,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034969707}
-  m_LocalRotation: {x: 0.008662749, y: -0.18791275, z: -0.012042069, w: 0.9820737}
-  m_LocalPosition: {x: 0, y: 0, z: 348.1}
+  m_LocalRotation: {x: 0.004382264, y: -0.053155717, z: -0.011068948, w: 0.9985153}
+  m_LocalPosition: {x: 0, y: 0, z: 355}
   m_LocalScale: {x: 0.56788, y: 1, z: 1}
   m_Children:
   - {fileID: 1445313877}
   m_Father: {fileID: 1624003489}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0.716, y: -21.674002, z: -1.542}
+  m_LocalEulerAnglesHint: {x: 0.43400002, y: -6.0990005, z: -1.2930001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -63.5}
+  m_AnchoredPosition: {x: -17.3, y: -70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034969709
@@ -904,7 +904,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 30, z: 10}
+  m_Size: {x: 150, y: 30, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1034969711
 MonoBehaviour:
