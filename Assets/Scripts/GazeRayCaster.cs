@@ -3,7 +3,7 @@
  * 
  * Author: Graeme White
  * Date: 08/03/20
- * Last modified: 09/03/2020
+ * Last modified: 18/03/2020
  */
 
 // Libraries
@@ -44,13 +44,17 @@ public class GazeRayCaster : MonoBehaviour
     private InteractiveItem _lastInteractiveItem;
 
     /*
-     * UPDATE METHOD
+     * FIXED UPDATE METHOD
      * 
-     * Method is invoked every frame
+     * Method is invoked in time with Unity's
+     * Physics modules.
      * 
-     * Method invokes ray casting at every update
+     * Method invokes ray casting at every update.
+     * 
+     * Using FixedUpdate instead of update avoids
+     * issues when using on Android/iOS
      */
-    private void Update()
+    private void FixedUpdate()
     {
         // Invoke ray casting from users perspective
         EyeRaycasting();
@@ -72,7 +76,7 @@ public class GazeRayCaster : MonoBehaviour
 
         // Check if ray collides with interactive item
         if (Physics.Raycast(ray, out aCollision, _rayLength))
-            {
+        {
             // Obtain Interactive Item based on collision and store in Temporary Interactive Item object
             InteractiveItem tempInteractiveItem = aCollision.collider.GetComponent<InteractiveItem>();
 

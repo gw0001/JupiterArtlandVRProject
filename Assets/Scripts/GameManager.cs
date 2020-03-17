@@ -56,16 +56,16 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             // Don't destroy the current game manager
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
 
             // Set game manager instance to this
-            instance = this;
+            //instance = this;
         }
         // Check if current instance of game manager is equal to this game manager
         else if (instance != this)
         {
             // Destroy the game manager that is not the current game manager
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 
