@@ -309,6 +309,11 @@ PrefabInstance:
       propertyPath: _crossHairFillImage
       value: 
       objectReference: {fileID: 1857384621}
+    - target: {fileID: 7193477131630369607, guid: c5d87e26c8dbff7419032539edd50308,
+        type: 3}
+      propertyPath: selectionTime
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 7193477131630369608, guid: c5d87e26c8dbff7419032539edd50308,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

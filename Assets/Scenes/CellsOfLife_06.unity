@@ -246,7 +246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &548969642
 Transform:
   m_ObjectHideFlags: 0
@@ -450,6 +450,11 @@ PrefabInstance:
       propertyPath: _crossHairFillImage
       value: 
       objectReference: {fileID: 284122862}
+    - target: {fileID: 7193477131630369607, guid: c5d87e26c8dbff7419032539edd50308,
+        type: 3}
+      propertyPath: selectionTime
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 7193477131630369608, guid: c5d87e26c8dbff7419032539edd50308,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
