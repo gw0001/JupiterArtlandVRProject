@@ -13,6 +13,7 @@ public class ToogleHub : MonoBehaviour
         makeInvisable.GetComponent<GameObject>();
     }
 
+    
     void Update()
     {
         bool o = Input.GetKeyDown(KeyCode.O);
@@ -32,4 +33,5 @@ public class ToogleHub : MonoBehaviour
             Debug.Log(messageText);
         }
     }
+    
 }
