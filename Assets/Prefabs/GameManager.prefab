@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4720816681349194174}
   - component: {fileID: 4720816681349194145}
-  - component: {fileID: 4720816681349194175}
   - component: {fileID: 330120671585232670}
   m_Layer: 0
   m_Name: GameManager
@@ -48,19 +47,6 @@ MonoBehaviour:
   scenesToLoad:
   - CellsOfLife_01
   activeScene: 
---- !u!114 &4720816681349194175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4720816681349194144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11ce3bcaf9e4b2f4c8a703575748e7d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theGM: {fileID: 0}
 --- !u!114 &330120671585232670
 MonoBehaviour:
   m_ObjectHideFlags: 0
